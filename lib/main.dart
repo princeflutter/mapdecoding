@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
 import 'MapDecoding2.dart';
+import 'Mapdecoding3.dart';
+import 'Mapdecofing4.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: MapDecoding2(),
+    home: Mapdecofing4(),
   ));
 }
 
@@ -17,8 +19,6 @@ class Map1Decoding extends StatefulWidget {
 
 class _Map1DecodingState extends State<Map1Decoding> {
   Map map1 = {"id": "78782554", "name": "Aditi Radadiya", "score": 1000};
-
-
 
   @override
   void initState() {
